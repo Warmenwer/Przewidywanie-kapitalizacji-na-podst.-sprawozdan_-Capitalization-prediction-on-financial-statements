@@ -1,0 +1,8 @@
+model:
+  type: "XGBoost"
+  parameters:
+    colsample_bytree: 0.75
+    max_depth: 6
+    n_estimators: 40
+    subsample: 0.75
+    tree_method: "hist"
